@@ -1,0 +1,11 @@
+{
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"ignored_packages":
+	[
+		"C++ Starting Kit",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"word_wrap": "true",
+	"tab_size": 2
+}

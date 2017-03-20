@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+this.props.navigator.push({
+    title: ${1:title},
+    component: ${2:component},
+    passProps: {${3:properties}}
+  });
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newnav</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

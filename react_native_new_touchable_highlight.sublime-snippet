@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<TouchableHighlight style={styles.${1:style}}
+  underlayColor='${2:underlayColor}'>
+</TouchableHighlight>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>newtouch</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
