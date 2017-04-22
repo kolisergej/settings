@@ -1,11 +1,16 @@
 {
+	"auto_complete": true,
 	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
 	"ignored_packages":
 	[
-		"C++ Starting Kit",
 		"Vintage"
 	],
 	"open_files_in_new_window": false,
-	"word_wrap": "true",
-	"tab_size": 2
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_separators": "./\\()\"'-:,.;<>~!@#$%^&*|+=[]{}`~?",
+	"word_wrap": true,
+	"tooltips": true,
 }
