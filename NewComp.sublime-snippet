@@ -1,9 +1,6 @@
 <snippet>
 	<content><![CDATA[
 import React, { Component } from 'react';
-import {
-	View
-} from 'react-native';
 import PropTypes from 'prop-types';
 
 class ${1:this} extends Component {
@@ -13,8 +10,8 @@ class ${1:this} extends Component {
 
 	render() {
 		return (
-			<View>
-			</View>
+			<div>
+			</div>
 		);
 	}
 }
@@ -25,10 +22,10 @@ ${1:this}.propTypes = {
 ${1:this}.defaultProps = {
 };
 
-module.exports = ${1:this};
+export default = ${1:this};
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>newcomponent</tabTrigger>
+	<tabTrigger>component</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>

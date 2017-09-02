@@ -1,16 +1,13 @@
 <snippet>
   <content><![CDATA[
 import React from 'react';
-import {
-  View,
-} from 'react-native';
 import PropTypes from 'prop-types';
 
-const ${1:this} = (props) => {
+function ${1:this}(props) {
 
   return (
-    <View>
-    </View>
+    <div>
+    </div>
   );
 }
 
@@ -23,7 +20,7 @@ ${1:this}.defaultProps = {
 export default ${1:this};
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>newpurecomp</tabTrigger>
+  <tabTrigger>purecomponent</tabTrigger>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
   <!-- <scope>source.python</scope> -->
 </snippet>

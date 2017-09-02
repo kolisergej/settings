@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-<Image style={styles.${1:style}} source={{uri: ${2:uri}}}/>
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>newimage</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
